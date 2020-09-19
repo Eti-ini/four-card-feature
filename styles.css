@@ -1,0 +1,160 @@
+body{
+  font-family: "Poppins";
+  background-color: hsl(0, 0%, 98%);
+}
+
+h1{
+  text-align: center;
+  font-size: 2rem;
+  line-height: 0.8;
+  font-weight: 400;
+}
+h3{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+p{
+  font-weight: 200;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: hsl(229, 6%, 66%);
+  padding: 0 0 20px;
+}
+/* fisrt sector */
+.head{
+  color: hsl(229, 6%, 66%);
+  font-weight: 100;
+}
+.AI{
+  font-size: 1rem;
+  padding: 10px 30px 10px;;
+}
+.describe{
+  text-align: center;
+}
+/* second sector */
+.icon{
+  position: relative;
+  left: 75%;
+  width: 40px;
+  bottom: -10px;
+}
+.content{
+  padding: 0 20px 0;
+}
+.supervisor{
+  width: 80%;
+  height: 200px;
+  background-color: #fff;
+  -moz-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+  -webkit-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+  box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+  border-top:  3px solid hsl(180, 66%, 49%);
+  margin-left: 10%;
+  margin-bottom: 40px;
+}
+.calculator{
+  width: 80%;
+  height: 200px;
+  background-color: #fff;
+  -moz-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+  -webkit-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+  box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+  border-top:  3px solid hsl(180, 66%, 49%);
+  margin-left: 10%;
+  margin-bottom: 40px;
+}
+.karma{
+  width: 80%;
+  height: 200px;
+  background-color: #fff;
+  -moz-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+  -webkit-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+  box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+  border-top:  3px solid hsl(34, 97%, 64%);
+  margin-left: 10%;
+  margin-bottom: 40px;
+
+}
+.builder{
+  width: 80%;
+  height: 200px;
+  background-color: #fff;
+  -moz-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+  -webkit-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+  box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+  border-top:  3px solid hsl(0, 78%, 62%);
+  margin-left: 10%;
+  margin-bottom: 20px;
+  margin-bottom: 40px;
+}
+/* Responsive designs */
+@media (min-width: 400px) {
+  .supervisor{
+    width: 20%;
+    height: 200px;
+    position: absolute;
+    left: 8%;
+    bottom: 7%;
+    background-color: #fff;
+    -moz-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+    -webkit-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+    box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+    border-top:  3px solid hsl(180, 66%, 49%);
+
+  }
+  .calculator{
+    width: 20%;
+    height: 200px;
+    position: absolute;
+    left: 52%;
+    bottom: 7%;
+    background-color: #fff;
+    -moz-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+    -webkit-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+    box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+    border-top:  3px solid hsl(180, 66%, 49%);
+
+  }
+  .karma{
+    width: 20%;
+    height: 200px;
+    position: absolute;
+    margin-bottom: 40px;
+    left: 30%;
+    bottom: -15%;
+    background-color: #fff;
+    -moz-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+    -webkit-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+    box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+    border-top:  3px solid hsl(34, 97%, 64%);
+
+  }
+  .builder{
+    width: 20%;
+    height: 200px;
+    position: absolute;
+    left: 30%;
+    background-color: #fff;
+    -moz-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+    -webkit-box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+    box-shadow: 0px 0px 5px 3px hsl(0, 0%, 98%);
+    border-top:  3px solid hsl(0, 78%, 62%);
+
+
+  }
+  h1{
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 0.6;
+    font-weight: 400;
+  }
+  p{
+    font-weight: 200;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: hsl(229, 6%, 66%);
+    padding: 0 0 50px;
+  }
+
+}
